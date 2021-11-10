@@ -25,4 +25,5 @@ echo "<i>Aadress: ".$array[1]."</i><br>";
 echo "<img src='$array[2]' alt='pildike'>";
 echo "<br><a href='https://$array[3]'>Koduleht</a>";
 ?>
-<a href="../test.php">tagasi</a>;
+<br>
+<a href='test.php'>tagasi</a>;

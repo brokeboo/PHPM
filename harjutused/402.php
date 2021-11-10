@@ -18,7 +18,12 @@
 ?>
 <h2>2.20 tekstkasti tsükliga</h2>
 <?php
-
+$i=1;
+while($i<-20){
+    echo "<input type='text' id='$i' name='cell[]' value='$i'>";
+    echo "<label for='$i'>box'.$i.'</label><br>";
+    $i++;
+}
 
 
 
@@ -27,8 +32,9 @@
 <?php
     $u=2;
     while($u<=20){
-        echo "<input type='radio' id='i.$u' name='rad' value='$u'>";
+        echo "<input type='radio' id='i.$u' name='radio[]' value='$u'>";
         echo "<label for='i.$u'>radio'.$u.'</label><br>";
     $u++;
     }
 ?>
+<a href='test.php'>tagasi</a>;
